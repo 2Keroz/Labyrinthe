@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../font/Minecraft.ttf') format('truetype'),
+}
+
+body{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    font-family: 'Minecraft', sans-serif;
+    
+}
+
+header{
+    padding:20px;
+    text-align: center;
+}
+
+.container-game{
+    /* height: 100vh; */
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    background-color: rgb(198, 251, 255);
+    padding: 40px;
+    width: 60%;
+}
+
+.buttons{
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    width: 210px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: #31ae1f;
+    border: 0;
+    position: relative;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.3);
+    font-family: 'Minecraft', sans-serif;
+    border-radius: 30px;
+}
+
+input:hover{
+    cursor: pointer;
+  }
+
+
+input:after, input:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNHB4IiBoZWlnaHQ9IjRweCIgdmlld2JveD0iMCAwIDRweCA0cHgiIHg9IjBweCIgeT0iMHB4Ij48cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2IoMzcsIDE3NiwgNykiIC8+PC9zdmc+') top left no-repeat, url('data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNHB4IiBoZWlnaHQ9IjRweCIgdmlld2JveD0iMCAwIDRweCA0cHgiIHg9IjBweCIgeT0iMHB4Ij48cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2IoMTQxLCAyNTMsIDkyKSIgLz48L3N2Zz4=') top right no-repeat, url('data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNHB4IiBoZWlnaHQ9IjRweCIgdmlld2JveD0iMCAwIDRweCA0cHgiIHg9IjBweCIgeT0iMHB4Ij48cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2IoMTgsIDg4LCAzKSIgLz48L3N2Zz4=') bottom left no-repeat, url('data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNHB4IiBoZWlnaHQ9IjRweCIgdmlld2JveD0iMCAwIDRweCA0cHgiIHg9IjBweCIgeT0iMHB4Ij48cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2IoMzYsIDE4MCwgNikiIC8+PC9zdmc+') bottom right no-repeat;
+  }
+  
+input:before{
+    background: none;
+    border-top: 4px solid #64fd1f;
+    border-bottom: 4px solid #1e8c03;
+    border-left: 4px solid #156c00;
+    border-right: 4px solid #47d009;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.15);
+  }
+img{
+    width: 80px;
+}
+
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+header>p{
+    color:white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+footer>p{
+    color: wheat;
+    padding: 30px;
+    text-align: center;
+}
